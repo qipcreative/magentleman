@@ -1,0 +1,18 @@
+#!/usr/bin/php -q
+
+<?php 
+
+// Obvs we need to include Magento, otherwise this whole thing would be pretty pointless
+$mageFilename = 'app/Mage.php';
+
+require_once $mageFilename;
+
+// Need to be able to output errors properly
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+/* Let's get started! */
+
+require_once 'shell/Magentleman.php';
+
+$magentleman = new Magentleman();

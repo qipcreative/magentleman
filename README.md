@@ -8,7 +8,7 @@ A command line interface to Magento, with an interactive console. This is most d
 Installation
 ------------
 
-You can clone this repo directly into your Magento root and it should set things up correctly. I need to test this on a few different systems, as yet, I haven't had time to do that. It's worked for me before.
+First, clone this repo somewhere locally. Then copy the files from within ```magento``` directly into your Magento root and it should set things up correctly. I need to test this on a few different systems, as yet, I haven't had time to do that. It's worked for me before on quite a few installs.
 
 There's basically one shell file which goes into your root directory and then a few files which go into the shell directory. I'm going to work on a proper install script one day (or something with modman).
 

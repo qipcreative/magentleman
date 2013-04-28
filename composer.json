@@ -1,0 +1,16 @@
+{
+    "name": "qipcreative/magentleman",
+    "type": "magento-extension",
+    "license":"MIT",
+    "description":"A command line interface to Magento, with an interactive console",
+    "authors":[
+        {
+            "name":"Joe Robertson",
+            "email":"joe@qipcreative.co.uk"
+        }
+    ],
+    "homepage":"https://github.com/qipcreative/magentleman",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
